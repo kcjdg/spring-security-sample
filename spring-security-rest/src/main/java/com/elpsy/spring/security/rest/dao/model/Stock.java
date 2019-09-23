@@ -10,6 +10,8 @@ import org.hibernate.annotations.UpdateTimestamp;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
@@ -22,9 +24,13 @@ import java.time.LocalDateTime;
 public class Stock implements Serializable {
 
     @Id
+    @NotNull(message = "Stock Code cannot be null")
     private String stockCode;
+    @NotNull(message = "Stock Name cannot be null")
     private String stockName;
+    @DecimalMin(value = "0.05", message = "Price should at least 0.05")
     private Double price;
+    @NotNull(message = "Sector cannot be null")
     private String sector;
     @CreationTimestamp
     private LocalDateTime createTime;
