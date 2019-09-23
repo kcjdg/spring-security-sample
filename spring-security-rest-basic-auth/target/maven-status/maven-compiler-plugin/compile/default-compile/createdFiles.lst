@@ -1,5 +1,0 @@
-com/elpsy/spring/security/rest/dao/model/Stock.class
-com/elpsy/spring/security/rest/controller/StockController.class
-com/elpsy/spring/security/rest/SpringSecurityBasicRestApp.class
-com/elpsy/spring/security/rest/config/SecurityConfig.class
-com/elpsy/spring/security/rest/dao/repo/StockRepo.class
