@@ -1,0 +1,5 @@
+/home/ken-dev/Workspaces/project/spring-security-sample/spring-security-rest-basic-auth/src/main/java/com/elpsy/spring/security/rest/config/SecurityConfig.java
+/home/ken-dev/Workspaces/project/spring-security-sample/spring-security-rest-basic-auth/src/main/java/com/elpsy/spring/security/rest/SpringSecurityBasicRestApp.java
+/home/ken-dev/Workspaces/project/spring-security-sample/spring-security-rest-basic-auth/src/main/java/com/elpsy/spring/security/rest/controller/StockController.java
+/home/ken-dev/Workspaces/project/spring-security-sample/spring-security-rest-basic-auth/src/main/java/com/elpsy/spring/security/rest/dao/model/Stock.java
+/home/ken-dev/Workspaces/project/spring-security-sample/spring-security-rest-basic-auth/src/main/java/com/elpsy/spring/security/rest/dao/repo/StockRepo.java

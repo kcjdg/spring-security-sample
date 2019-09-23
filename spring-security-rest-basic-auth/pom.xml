@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.elpsy.spring-security-sample</groupId>
-    <artifactId>spring-security-rest</artifactId>
+    <artifactId>spring-security-rest-basic-auth</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

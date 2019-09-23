@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-security-rest</module>
+        <module>spring-security-rest-basic-auth</module>
     </modules>
 
 
